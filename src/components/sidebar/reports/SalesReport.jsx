@@ -132,6 +132,7 @@ export default function SalesReport() {
               <Table striped bordered hover responsive>
                 <thead>
                   <tr>
+                  <th>Sl</th>
                     <th>Invoice No</th>
                     <th>Date</th>
                     <th>Retailer Name</th>
@@ -147,6 +148,7 @@ export default function SalesReport() {
                 <tbody>
                   {filteredData.map((data, index) => (
                     <tr key={index}>
+                         <td>{index+1}</td>
                       <td>{data.invoiceNo}</td>
                       <td>{data.date}</td>
                       <td>{data.retailerName}</td>
