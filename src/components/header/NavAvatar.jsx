@@ -7,7 +7,7 @@ export default function NavAvatar() {
     <li className="nav-item dropdown pe-3">
       <a
         className="nav-link nav-profile d-flex align-items-center pe-0"
-        href="#"
+        href="/portal/dashboard"
         data-bs-toggle="dropdown"
       >
         <img src={userImg} alt="Profile" className="rounded-circle" />
@@ -28,7 +28,7 @@ export default function NavAvatar() {
 
         <a
           className="dropdown-item d-flex align-items-center"
-          href="users-profile.html"
+          href="/portal/myprofile"
         >
           <i className="bi bi-person"></i>
 
@@ -42,7 +42,7 @@ export default function NavAvatar() {
         <li>
           <a
             className="dropdown-item d-flex align-items-center"
-            href="users-profile.html"
+            href="/portal/workinprogress"
           >
             <i className="bi bi-gear"></i>
 
@@ -57,7 +57,7 @@ export default function NavAvatar() {
         <li>
           <a
             className="dropdown-item d-flex align-items-center"
-            href="pages-faq.html"
+            href="/portal/workinprogress"
           >
             <i className="bi bi-question-circle"></i>
 
@@ -70,7 +70,7 @@ export default function NavAvatar() {
         </li>
 
         <li>
-          <a className="dropdown-item d-flex align-items-center" href="#">
+          <a className="dropdown-item d-flex align-items-center" href="/">
             <i className="bi bi-box-arrow-right"></i>
 
             <span>Sign Out</span>

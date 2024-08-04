@@ -35,13 +35,13 @@ export default function SideBar() {
             data-bs-parent="#sidebar-nav"
           >
             <li>
-              <Link
-                to="/portal/useractivatedeactivate"
+              <a
+                href="/portal/useractivatedeactivate"
                 style={{ textDecoration: "none" }}
               >
                 <i className="bi bi-person-bounding-box" style={{fontSize:"20px"}}></i>
                 <span>User Activate/Deactivate</span>
-              </Link>
+              </a>
             </li>
             <li>
               <Link to="/portal/adduser" style={{ textDecoration: "none" }}>

@@ -32,6 +32,13 @@ import Visiting from "./components/sidebar/inventory/Visiting";
 import PaymentEntry from "./components/sidebar/inventory/PaymentEntry";
 import BillingToMechanic from "./components/sidebar/inventory/BillingToMechanic";
 import RetailerSummary from "./components/sidebar/inventory/RetailerSummary";
+import RetailerRequestReport from "./components/sidebar/reports/RetailerRequestReport";
+import 'react-datepicker/dist/react-datepicker.css';
+import RetailerAccountStatement from "./components/sidebar/reports/RetailerAccountStatement";
+import SalesReport from "./components/sidebar/reports/SalesReport";
+import MyProfile from "./components/header/MyProfile";
+import WorkProgress from "./components/portal/WorkProgress";
+
 
 function App() {
   return (
@@ -48,6 +55,8 @@ function App() {
         <Route path="supplier" element={<Suppliers/>} />
         <Route path="logistic" element={<Logistic/>} />
 
+        <Route path="myprofile" element={<MyProfile/>} />
+        <Route path="workinprogress" element={<WorkProgress/>} />
 
         <Route path="useractivatedeactivate" element={<UserActivateDeactivate/>} />
         <Route path="adduser" element={<AddUser/>} />
@@ -88,15 +97,15 @@ function App() {
         <Route path="retailerslist" element={<Suppliers/>} />
         <Route path="mechaniclist" element={<Suppliers/>} />
         <Route path="DSRwiseretailersoutstandingreport" element={<Suppliers/>} />
-        <Route path="salesreport" element={<Suppliers/>} />
+        <Route path="salesreport" element={<SalesReport/>} />
         <Route path="receiptreport" element={<Suppliers/>} />
         <Route path="linesperdealerreport" element={<Suppliers/>} />
-        <Route path="retailersaccountstatement" element={<Suppliers/>} />
+        <Route path="retailersaccountstatement" element={<RetailerAccountStatement/>} />
         <Route path="representativevisitinghistory" element={<Suppliers/>} />
         <Route path="DSRdayreport" element={<Suppliers/>} />
         <Route path="DSRdaywisecollectionreport" element={<Suppliers/>} />
         <Route path="DSRdaywisesalesreport" element={<Suppliers/>} />
-        <Route path="retailerrequestreport" element={<Suppliers/>} />
+        <Route path="retailerrequestreport" element={<RetailerRequestReport/>} />
         <Route path="itemwiseretailerrequestreport" element={<Suppliers/>} />
         <Route path="invoicehistory" element={<Suppliers/>} />
         <Route path="paymenthistory" element={<Suppliers/>} />

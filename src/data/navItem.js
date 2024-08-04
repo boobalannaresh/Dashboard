@@ -5,6 +5,7 @@ const navList = [
     name: "Profile",
 
     icon: "bi bi-person",
+    path:"/portal/myprofile"
   },
 
   {
@@ -13,6 +14,7 @@ const navList = [
     name: "Contact",
 
     icon: "bi bi-envelope",
+    path:"/portal/workinprogress"
   },
 
   {
@@ -21,13 +23,16 @@ const navList = [
     name: "Register",
 
     icon: "bi bi-card-list",
-
-    _id: 4,
-
-    name: "Login",
-
-    icon: "bi bi-box-arrow-in-right",
+    path:"/portal/workinprogress"
   },
+  // {
+  //   _id: 4,
+
+  //   name: "Login",
+
+  //   icon: "bi bi-box-arrow-in-right",
+  //   path:"/portal/workinprogress"
+  // },
 
   {
     _id: 5,
@@ -35,17 +40,20 @@ const navList = [
     name: "Setting",
 
     icon: "bi bi-gear",
+    path:"/portal/workinprogress"
   },
 
   {
     _id: 6,
     name: "F.A.Q",
     icon: "bi bi-question-circle",
+    path:"/portal/workinprogress"
   },
   {
     _id: 7,
     name: "Blank",
     icon: "bi bi-file-earmark",
+    path:"/portal/workinprogress"
   },
 ];
 
